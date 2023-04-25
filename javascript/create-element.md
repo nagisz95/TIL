@@ -21,7 +21,16 @@ let element = document.createElement(tagName[, options]);
 ```javascript 
 const paragraph = document.body.appendChild();
 ```
-
+  要素の中に子要素を入れたい場合は、
+  
+```javascript
+li.appendChild(span);
+```
+```html
+<li>
+  <span></span>
+</li>
+```
 
 # prepend()
   createElementで生成したelementをHTML上の先頭に追加する。
