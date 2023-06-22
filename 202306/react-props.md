@@ -1,0 +1,10 @@
+# Propsとは
+  - 親コンポーネント→子コンポーネントにデータを送ることができる。
+  - 子コンポーネントの中に書くroperties(props)をObjectに格納。
+    - 例えば、
+      
+      ```javascript　
+      <Btn text="Saved Change" />
+      ```
+      
+    - 上記の```Saved Change```は、props(object)に格納される。
