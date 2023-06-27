@@ -1,0 +1,2 @@
+# useEffect
+functionを一回だけ実行したい時（例えば、最初のrenderの際にAPIを呼び出したにも関わらず、stateが変更された場合、再びAPIを呼び出すのは良くない）に使う。
